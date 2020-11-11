@@ -1,0 +1,6 @@
+13:17:26.064 [TestNG] INFO  Academy.Base - NonRestricted User
+13:17:26.104 [TestNG] INFO  Academy.Base - loging window closed
+13:17:28.362 [TestNG] INFO  Academy.Base - Driver is initilized
+13:17:54.086 [TestNG] INFO  Academy.Base - Navigated to Home Page
+13:18:11.970 [TestNG] INFO  Academy.Base - Restricted User
+13:18:12.003 [TestNG] INFO  Academy.Base - loging window closed

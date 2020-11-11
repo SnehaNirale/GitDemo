@@ -1,0 +1,25 @@
+# Created at 2020-11-10T18:30:21.159
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-11-10T18:30:24.315
+Unexpected IOException: 8,1,Academy.ValidateTittleTest,inililization(Academy.ValidateTittleTest),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'DESKTOP-LVOD7TK'\002C ip: '192.168.43.143'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: driver.version: RemoteWebDriver,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'DESKTOP-LVOD7TK'\002C ip: '192.168.43.143'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: driver.version: RemoteWebDriver,ValidateTittleTest.inililization:27 \00BB WebDriver java.net.SocketException: Conn...,org.openqa.selenium.WebDriverException: \000Ajava.net.SocketException: Connection reset\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'DESKTOP-LVOD7TK'\002C ip: '192.168.43.143'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_261'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at Academy.ValidateTittleTest.inililization(ValidateTittleTest.java:27)\000ACaused by: java.net.SocketException: Connection reset\000A\0009at Academy.ValidateTittleTest.inililization(ValidateTittleTest.java:27)\000A
+
+
+# Created at 2020-11-10T18:30:24.322
+Unexpected IOException: 5,1,Academy.ValidateTittleTest,validateTitle(Academy.ValidateTittleTest),Academy.ValidateTittleTest,null,null
+
+
+# Created at 2020-11-10T18:30:24.328
+Unexpected IOException: 9,1,Academy.ValidateTittleTest,validateTitle(Academy.ValidateTittleTest),null,null,null
+
+
+# Created at 2020-11-10T18:30:24.338
+Unexpected IOException: 9,1,Academy.ValidateTittleTest,teardown(Academy.ValidateTittleTest),null,null,null
+
+
